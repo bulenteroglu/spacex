@@ -1,18 +1,7 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
-
 import React, {useEffect, useState, type PropsWithChildren} from 'react';
 import {
   FlatList,
   SafeAreaView,
-  ScrollView,
   StatusBar,
   StyleSheet,
   useColorScheme,
@@ -51,7 +40,6 @@ const App = () => {
             `Launch_mission_${launch.flight_number + '_' + index}`
           }
         />
-        {/* <Button /> */}
       </View>
     </SafeAreaView>
   );

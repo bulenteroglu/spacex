@@ -1,18 +1,19 @@
+import {format} from 'date-fns';
 import {StyleSheet, Text, View} from 'react-native';
 import {Launch} from '../../../types/launch';
 
 export default function ListItem({item}: {item: Launch}) {
   return (
     <View style={[styles.card, styles.shadowProp]}>
-      <View style={{flex: 0.1}}>
+      <View style={{flex: 0.3}}>
         <Text>#{item.flight_number}</Text>
       </View>
-      <View style={{flex: 0.5}}>
+      <View style={{flex: 1}}>
         <Text>{item.mission_name}</Text>
       </View>
 
-      <View style={{flex: 0.4}}>
-        <Text>{item.launch_date_utc}</Text>
+      <View style={{alignItems: 'flex-end'}}>
+        <Text>{format(new Date(item.launch_date_utc), 'do MMM yyyy')}</Text>
         <Text>{item.rocket.rocket_name}</Text>
       </View>
     </View>
