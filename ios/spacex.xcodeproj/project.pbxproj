@@ -14,6 +14,21 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-spacex-spacexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-spacex-spacexTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		78F3A9C9F4DF4A33A78FA620 /* BrandonGrotesque-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 689422B25F8B406C87134D49 /* BrandonGrotesque-Black.ttf */; };
+		AC0FFA4686A741858526083D /* BrandonGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45FFAA1284B446F5818E4789 /* BrandonGrotesque-Bold.ttf */; };
+		9AC6897A49DD42A586462ED5 /* BrandonGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60E823E12CD846939ED4E980 /* BrandonGrotesque-Medium.ttf */; };
+		2A8739BBDF8B4F28963FFC63 /* BrandonGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F7402569497AA6213DD9 /* BrandonGrotesque-Regular.ttf */; };
+		5DA4FE2664F342B58136E193 /* BrandonGrotesque-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ECA6744155E4F22AAE05C98 /* BrandonGrotesque-RegularItalic.ttf */; };
+		C5FF3A9AA49C42C1BA1CCD7B /* BrandonGrotesque-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = DFC19C3596D74116B1B4B18B /* BrandonGrotesque-Black.woff */; };
+		396AD61E1F304CCEBC9A8EF1 /* BrandonGrotesque-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 61E0623DCFFB46C08F9247B0 /* BrandonGrotesque-Black.woff2 */; };
+		2B66ED18F55840D8A1064D34 /* BrandonGrotesque-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = BEA2196828B74B879189A4C2 /* BrandonGrotesque-Bold.woff */; };
+		3523026744924D8AAF5C95D2 /* BrandonGrotesque-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = F0F408490BEC4EE5B4E20E1E /* BrandonGrotesque-Bold.woff2 */; };
+		37CED01502C44AE79D344CE4 /* BrandonGrotesque-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9988A63EA26144719E440EE1 /* BrandonGrotesque-Medium.woff */; };
+		B72956E0FE3E4A41BF791006 /* BrandonGrotesque-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 24D4249F0001461E926037F7 /* BrandonGrotesque-Medium.woff2 */; };
+		8EF806B2FC314E4A99A4E879 /* BrandonGrotesque-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = F77FB9B75E744F229E7CD984 /* BrandonGrotesque-Regular.woff */; };
+		F290642DD58C4ABFAF2D38A8 /* BrandonGrotesque-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 80D23F47F0AB43558F371330 /* BrandonGrotesque-Regular.woff2 */; };
+		1EA2471BE2B4480A9F9F727A /* BrandonGrotesque-RegularItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 92EAC2D9BFF94D228EC1C8ED /* BrandonGrotesque-RegularItalic.woff */; };
+		B49988D79AE24F28A3DC89B7 /* BrandonGrotesque-RegularItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 53F75C5D7EE04E019CB099D6 /* BrandonGrotesque-RegularItalic.woff2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +59,21 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = spacex/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-spacex-spacexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spacex-spacexTests.release.xcconfig"; path = "Target Support Files/Pods-spacex-spacexTests/Pods-spacex-spacexTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		689422B25F8B406C87134D49 /* BrandonGrotesque-Black.ttf */ = {isa = PBXFileReference; name = "BrandonGrotesque-Black.ttf"; path = "../assets/fonts/BrandonGrotesque-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		45FFAA1284B446F5818E4789 /* BrandonGrotesque-Bold.ttf */ = {isa = PBXFileReference; name = "BrandonGrotesque-Bold.ttf"; path = "../assets/fonts/BrandonGrotesque-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60E823E12CD846939ED4E980 /* BrandonGrotesque-Medium.ttf */ = {isa = PBXFileReference; name = "BrandonGrotesque-Medium.ttf"; path = "../assets/fonts/BrandonGrotesque-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		09D9F7402569497AA6213DD9 /* BrandonGrotesque-Regular.ttf */ = {isa = PBXFileReference; name = "BrandonGrotesque-Regular.ttf"; path = "../assets/fonts/BrandonGrotesque-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1ECA6744155E4F22AAE05C98 /* BrandonGrotesque-RegularItalic.ttf */ = {isa = PBXFileReference; name = "BrandonGrotesque-RegularItalic.ttf"; path = "../assets/fonts/BrandonGrotesque-RegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DFC19C3596D74116B1B4B18B /* BrandonGrotesque-Black.woff */ = {isa = PBXFileReference; name = "BrandonGrotesque-Black.woff"; path = "../assets/fonts/BrandonGrotesque-Black.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61E0623DCFFB46C08F9247B0 /* BrandonGrotesque-Black.woff2 */ = {isa = PBXFileReference; name = "BrandonGrotesque-Black.woff2"; path = "../assets/fonts/BrandonGrotesque-Black.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEA2196828B74B879189A4C2 /* BrandonGrotesque-Bold.woff */ = {isa = PBXFileReference; name = "BrandonGrotesque-Bold.woff"; path = "../assets/fonts/BrandonGrotesque-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F0F408490BEC4EE5B4E20E1E /* BrandonGrotesque-Bold.woff2 */ = {isa = PBXFileReference; name = "BrandonGrotesque-Bold.woff2"; path = "../assets/fonts/BrandonGrotesque-Bold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9988A63EA26144719E440EE1 /* BrandonGrotesque-Medium.woff */ = {isa = PBXFileReference; name = "BrandonGrotesque-Medium.woff"; path = "../assets/fonts/BrandonGrotesque-Medium.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		24D4249F0001461E926037F7 /* BrandonGrotesque-Medium.woff2 */ = {isa = PBXFileReference; name = "BrandonGrotesque-Medium.woff2"; path = "../assets/fonts/BrandonGrotesque-Medium.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F77FB9B75E744F229E7CD984 /* BrandonGrotesque-Regular.woff */ = {isa = PBXFileReference; name = "BrandonGrotesque-Regular.woff"; path = "../assets/fonts/BrandonGrotesque-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		80D23F47F0AB43558F371330 /* BrandonGrotesque-Regular.woff2 */ = {isa = PBXFileReference; name = "BrandonGrotesque-Regular.woff2"; path = "../assets/fonts/BrandonGrotesque-Regular.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92EAC2D9BFF94D228EC1C8ED /* BrandonGrotesque-RegularItalic.woff */ = {isa = PBXFileReference; name = "BrandonGrotesque-RegularItalic.woff"; path = "../assets/fonts/BrandonGrotesque-RegularItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53F75C5D7EE04E019CB099D6 /* BrandonGrotesque-RegularItalic.woff2 */ = {isa = PBXFileReference; name = "BrandonGrotesque-RegularItalic.woff2"; path = "../assets/fonts/BrandonGrotesque-RegularItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +152,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				018DF4F52BFE4E8BABD44230 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +178,29 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		018DF4F52BFE4E8BABD44230 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				689422B25F8B406C87134D49 /* BrandonGrotesque-Black.ttf */,
+				45FFAA1284B446F5818E4789 /* BrandonGrotesque-Bold.ttf */,
+				60E823E12CD846939ED4E980 /* BrandonGrotesque-Medium.ttf */,
+				09D9F7402569497AA6213DD9 /* BrandonGrotesque-Regular.ttf */,
+				1ECA6744155E4F22AAE05C98 /* BrandonGrotesque-RegularItalic.ttf */,
+				DFC19C3596D74116B1B4B18B /* BrandonGrotesque-Black.woff */,
+				61E0623DCFFB46C08F9247B0 /* BrandonGrotesque-Black.woff2 */,
+				BEA2196828B74B879189A4C2 /* BrandonGrotesque-Bold.woff */,
+				F0F408490BEC4EE5B4E20E1E /* BrandonGrotesque-Bold.woff2 */,
+				9988A63EA26144719E440EE1 /* BrandonGrotesque-Medium.woff */,
+				24D4249F0001461E926037F7 /* BrandonGrotesque-Medium.woff2 */,
+				F77FB9B75E744F229E7CD984 /* BrandonGrotesque-Regular.woff */,
+				80D23F47F0AB43558F371330 /* BrandonGrotesque-Regular.woff2 */,
+				92EAC2D9BFF94D228EC1C8ED /* BrandonGrotesque-RegularItalic.woff */,
+				53F75C5D7EE04E019CB099D6 /* BrandonGrotesque-RegularItalic.woff2 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +298,21 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				78F3A9C9F4DF4A33A78FA620 /* BrandonGrotesque-Black.ttf in Resources */,
+				AC0FFA4686A741858526083D /* BrandonGrotesque-Bold.ttf in Resources */,
+				9AC6897A49DD42A586462ED5 /* BrandonGrotesque-Medium.ttf in Resources */,
+				2A8739BBDF8B4F28963FFC63 /* BrandonGrotesque-Regular.ttf in Resources */,
+				5DA4FE2664F342B58136E193 /* BrandonGrotesque-RegularItalic.ttf in Resources */,
+				C5FF3A9AA49C42C1BA1CCD7B /* BrandonGrotesque-Black.woff in Resources */,
+				396AD61E1F304CCEBC9A8EF1 /* BrandonGrotesque-Black.woff2 in Resources */,
+				2B66ED18F55840D8A1064D34 /* BrandonGrotesque-Bold.woff in Resources */,
+				3523026744924D8AAF5C95D2 /* BrandonGrotesque-Bold.woff2 in Resources */,
+				37CED01502C44AE79D344CE4 /* BrandonGrotesque-Medium.woff in Resources */,
+				B72956E0FE3E4A41BF791006 /* BrandonGrotesque-Medium.woff2 in Resources */,
+				8EF806B2FC314E4A99A4E879 /* BrandonGrotesque-Regular.woff in Resources */,
+				F290642DD58C4ABFAF2D38A8 /* BrandonGrotesque-Regular.woff2 in Resources */,
+				1EA2471BE2B4480A9F9F727A /* BrandonGrotesque-RegularItalic.woff in Resources */,
+				B49988D79AE24F28A3DC89B7 /* BrandonGrotesque-RegularItalic.woff2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
