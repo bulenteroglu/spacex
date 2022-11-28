@@ -32,8 +32,6 @@ const App = () => {
     async function getData() {
       const data = await fetchLaunches();
 
-      console.log('data:', data);
-
       if (data) {
         setLaunches(data);
       }
@@ -45,18 +43,16 @@ const App = () => {
   return (
     <SafeAreaView>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <View>
-          <FlatList
-            data={launches}
-            renderItem={ListItem}
-            keyExtractor={(launch: Launch, index: number) =>
-              `Launch_mission_${launch.flight_number + '_' + index}`
-            }
-          />
-          <Button />
-        </View>
-      </ScrollView>
+      <View>
+        <FlatList
+          data={launches}
+          renderItem={ListItem}
+          keyExtractor={(launch: Launch, index: number) =>
+            `Launch_mission_${launch.flight_number + '_' + index}`
+          }
+        />
+        {/* <Button /> */}
+      </View>
     </SafeAreaView>
   );
 };
