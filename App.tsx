@@ -1,6 +1,7 @@
 import React, {useEffect, useState, type PropsWithChildren} from 'react';
 import {
   FlatList,
+  Image,
   SafeAreaView,
   StatusBar,
   StyleSheet,
@@ -14,7 +15,6 @@ import {Launch} from './types/launch';
 import fetchLaunches from './utils/fetchLaunches';
 
 const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
   const [launches, setLaunches] = useState([]);
 
   useEffect(() => {
@@ -31,8 +31,22 @@ const App = () => {
 
   return (
     <SafeAreaView>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <View>
+      <StatusBar barStyle={'dark-content'} />
+      <View style={[styles.container]}>
+        <View
+          style={[
+            styles.buttonContainer,
+            {flexDirection: 'row', justifyContent: 'flex-end'},
+          ]}>
+          <Button
+            label={'Filter by year'}
+            icon={<Image source={require('./assets/images/select.png')} />}
+          />
+          <Button
+            label={'Sort Descending'}
+            icon={<Image source={require('./assets/images/sort.png')} />}
+          />
+        </View>
         <FlatList
           data={launches}
           renderItem={ListItem}
@@ -46,22 +60,11 @@ const App = () => {
 };
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
+  container: {
+    marginTop: 30,
+    padding: 10,
   },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
+  buttonContainer: {},
 });
 
 export default App;
